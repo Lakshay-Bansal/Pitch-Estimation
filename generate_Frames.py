@@ -32,9 +32,3 @@ def enframe(x,winsize,hoplength,fs,wintype = 'rect'):
         # plt.title(i+1)
         # n = input("Press enter for new plot")
     return frames, numOfFrames
-
-
-
-    
-
-
