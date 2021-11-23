@@ -25,8 +25,9 @@ Function of different file used in project:
 1. main.py - The file to be run to obtain pitch. It calls the generate_Frames.py, voicedFrame.py, pitch.py
 in the sequence to perform pitch estimation.
 3. generate_Frames.py - It have a enframe() function defined in it which generates the frame for speech signal. It generate frame those depend upon winsize,hoplength and wintype provided.
-4. voicedFrame.py - This file have voiceSeg() function, which calculate the normalised frame energy plot. And also threshold the   
-5. pitch.py
+4. voicedFrame.py - This file have voiceSeg() function, which calculate the normalised frame energy plot. And also label the frame being voiced/unvoiced, decided by provided threshold value.   
+5. pitch.py - It have framePitch() function to calculate the pitch for voiced frame only. Plot the frame (if voiced one) and its autocorrelation function with marked peaks. Frame number to be plot is taken as a input from user.
+
 
 ##Contact at below mail address in case of query:
 
